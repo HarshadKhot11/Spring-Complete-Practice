@@ -7,6 +7,7 @@ public class Products {
 
     public Products(int ProductId, String ProductName, double Price)
     {
+        System.out.println("Products class created");
         this.ProductId = ProductId;
         this.ProductName = ProductName;
         this.Price = Price;
